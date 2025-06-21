@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(255, 220, 253);/*fundo cor suave*/
+    font-family: monospace;
+}
+
+h1{
+    color: rgb(88, 87, 81);/*título com cor diferente*/
+    text-align: center;/*centralizado*/
+    font-size: 45px;
+}
+
+p{
+    font-size: 20px;/*fonte maior*/
+    text-align: justify;/*justificado*/
+}
+
+#botao{
+    font-family: monospace;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#mensagem{
+    font-size: 18px;
+}
+
+.box{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    margin: 50px;
+    align-items: center;
+}
+
+.container{
+    margin: 50px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.esquerda{
+    width: 50%;
+    padding-right: 30px;
+    border-right: 1px solid #333;
+}
+
+.direita{
+    width: 50%;
+    padding-left: 30px;
+}
+
+li{
+    font-size: 18px;
+    margin-bottom: 10px;/*espaçamento entre os itens*/
+}
+
+img{
+    width: 300px;/*tamanho adequado*/
+    border-radius: 10px;/*bordas arredondadas*/
+}
+
+table{
+    /*estilização da tabela*/
+    border-collapse: collapse;
+    border: 1px solid;
+    margin: 30px;
+}
+
+th, td{
+    border: 1px solid;
+    padding: 10px;
+}
+
+a{
+    background-color:white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid;
+    color:black;
+    margin-left: 150px;
+}
+
+a:hover{
+    color:darkmagenta;/*link muda de cor*/
+}
